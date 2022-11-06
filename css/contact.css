@@ -106,12 +106,7 @@ p {
   }
 
 .f{
-    border-radius: 1px;
-    border: 7px solid rgb(62, 61, 61);
-    border-radius: 4px;
-    display: flex;
-
-    flex-direction:row;
+   flex-direction:row;
 }
 
 @media (max-width:500px) {
