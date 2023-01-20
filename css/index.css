@@ -1,0 +1,235 @@
+
+@media (max-width: 500px) {
+  body {
+    flex-direction:column;
+    width: auto;
+    height: auto;
+    font-size: 1em;;
+    margin:auto;
+    padding:auto;
+  }
+}
+
+body {
+  margin:8px;
+  background-color:rgb(7, 94, 208);;
+  color:Darkblue;
+  font-family:"verdana";
+  font-size:18px;
+  justify-content: center;
+}
+
+h1 {
+  font-size:3em;
+  text-align: center;    
+}
+
+h2 {
+  text-align: center;
+  font: size 3em;
+}
+
+header {
+  padding: 0px;
+}
+
+#Socials {
+  background-color:white;
+  border: 10px solid white;
+  border-radius: 40px;
+  box-shadow: 10px 10px;
+}
+
+#introduction1 {
+  background-color:white;
+  color:Darkblue;
+  border: 10px solid white;
+  border-radius: 100px;
+  margin-top: 30px;
+  justify-content: center;
+  box-shadow: 10px 10px;
+}
+
+#Hobby {
+  background-color:white;
+  color:darkblue;
+  border: 10px solid white;
+  border-radius: 100px;
+  box-shadow: 10px 10px;
+}
+
+#Games {
+  background-color:white;
+  color:darkblue;
+  border: 10px solid white;
+  border-radius: 100px;
+  box-shadow: 10px 10px;
+    
+}
+
+#Manga {
+  background-color:white;
+  color:darkblue;
+  border: 10px solid white;
+  border-radius: 100px;
+  box-shadow: 10px 10px;
+}
+
+#Programeer {
+  background-color:white;
+  color:darkblue;
+  border: 10px solid white;
+  border-radius: 100px;
+  box-shadow: 10px 10px;
+}
+
+span {
+  font-style:italic;
+  color:white;
+}
+
+p {
+  color:rgb(0,0,0);
+  background-color:rgb(245, 245, 245);
+  padding:0px;
+  padding-bottom:50px;
+  margin-bottom:2px;
+  text-align: center;
+}
+  
+Nav {
+  font-size:20px;
+  text-align: center;
+  flex: 1;
+  justify-content:space-between;
+  background-color:white;
+  padding: 100px;
+  margin: 100px;
+  display:flex;
+  justify-content:space-between;
+  flex: 1;
+  border: 10px solid white;
+  border-radius: 100px;
+  box-shadow: 10px 10px;
+  position: sticky;
+  top:0px;
+  flex-direction: row;
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction:column;
+    width: auto;
+    height: auto;
+    font-size: 1.5em;;
+    margin:0px;
+  }
+  
+}
+
+Nav a {
+  padding: 10;
+  flex: 1;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: all 0.4s ease-out;
+  justify-content: space-between;
+  border-style: none;
+  width: 24%;
+  max-height: 4vw;
+  color: black;
+}
+
+Nav a:hover {
+  background-color: darkblue;
+  width: 24%;
+  max-height: 4vw;
+}
+
+footer {
+  font: size 2px;
+  flex: 1;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 500px;
+  width: 24%;
+  max-height: 4vw;
+  
+}
+
+main {
+margin: 4vw;
+}
+
+#img1 {
+  max-width: 40%;
+  height: 10%;
+  flex:auto;
+  display: inline-flex;
+  margin-left: 30%;
+  margin-top: 10%;
+  border-radius: 4px;
+  border: 10px solid white;
+  box-shadow: 10px 10px;
+
+}
+
+div {
+  background-color:c;
+  padding:30px;
+  margin-bottom:30px;
+  margin-left:20vw;
+  width:50vw;
+  color:darkblue;
+  justify-content: center; 
+}
+
+div#hero {
+  height: 100vh;
+  background-image:
+  url(../img/foto\ atal.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  color: darkblue;
+  font-size: 1em;
+  font-weight: bolder;
+  border-radius: 100px;
+  border: 10px solid ;
+  box-shadow: 10px 10px;
+  animation: movedown 3s ease-out;
+}
+
+#naruto{
+  width: auto;
+  height: auto;
+  height: 1000%;
+  margin-left: auto;
+  margin-right: auto
+}
+
+img{
+  width:100%;
+  height: 100%;
+  
+}
+
+@keyframes movedown {
+  from {
+    opacity:0;
+    transform: scale(1.2) translateY(-100px);
+  }
+  to {
+    opacity:1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+
+
