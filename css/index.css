@@ -1,0 +1,110 @@
+body {
+  background-color: #f2f6ff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  background-image: url('path/to/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 20px;
+  background-color: #102a43;
+}
+
+nav {
+  background-color: #1c345a;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #1c345a;
+  border-radius: 5px;
+}
+
+#introduction1 {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #888;
+}
+
+#Hobby {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #888;
+}
+
+#Games {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #888;
+}
+
+#Manga {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #888;
+}
+
+#Programeer {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #888;
+}
+
+#Socials {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #888;
+}
+
+footer {
+  background-color: #1c345a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#naruto {
+  width: 300px;
+  height: auto;
+}
+
+#aizen {
+  width: 200px;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  #naruto img {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    background-position: top;
+  }
+}
