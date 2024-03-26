@@ -6,52 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/project.css">
+    <script src="../js/index.js"></script>
 </head>
 
 
 <body>
-
+    <header>
+        <H1>projecten</H1>
+    </header>
     <nav>
         <a href="../index.html">Home</a>
         <a href="../contact.html">Contact</a>
         <div class="dropdown">
-          <button class="dropbtn">Jaar</button>
-          <div class="dropdown-content">
-            <a href="../projects/project_year1.html">Jaar 1</a>
+           <button onclick="myFunction()" class="dropbtn">jaar</button>
+          <div id="myDropdown"class="dropdown-content">
+            <a href="../projects/project_year1.html">Jaar 1 projects</a>
+            <a href="../keuzevak/keuzevak_jaar1.html">keuzevak jaar 1</a>
             <a href="../projects/project_year2.html">Jaar 2</a>
-            <a href="#">Jaar 3</a>
-            <a href="#">Jaar 4</a>
+            <a href="../keuzevak/keuzevak_jaar2.html">keuzevak jaar 2</a>
+            <!-- <a href="./projects/project_year3.html">Jaar 3</a> -->
+            <!-- <a href="#">Jaar 4</a> -->
           </div>
         </div>
     </nav>
     <main>
-    <header>
-        <H1>projecten</H1>
-    </header>
+    
     <section class="laravel">
         <H2>Project Laravel</H2>
         <p>een reserveringsysteem met Laravel</p>
         <p>ik heb een crudsysyteem gemaakt voor mijn project</p>
-        
-
-
-
+        <img src="../img/laravel.jpg">
     </section>
+
     <section class="labelvision">
         <h2>TLE1</h2>
         <h3>Labelvision</h3>
-
         <p>Dit is onze project voor TLE wat we moesten doen was een product maken dat barcodes scaned.</p>
         <p>Vervolgens geeft het de nutri score en inhoud van sommige producten</p>
         <p>We hebben dit gemaakt doormiddel van Reactnative</p>
         <p>We moesten een app gaan maken en mij groep dacht dus dat Reactnative het handigste is aangezien dat javascript gebruikt en iedereen uit onze groep kan javascript</p>
-        <p>We dachten ook nog aan Angular alleen die maakt gebruik van flutter iets dat op javascript lijkt</p>
+        
+        <img src="../img/labelvision.jpg">
 
     </section>
     <section class="fullstack">
         <h2>Full stack webdevelopment project</h2>
-        <p>Heb me niet zoveel gefocused op de layout want vond dat minder belangrijk</p>
+        <p>Ik heb me niet zoveel gefocused op de layout want vond dat minder belangrijk</p>
         <p>Wel heb ik me goed gefocused op het maken van de functionaliteit zelf</p>
+        <p>Ik heb een crud systeem gemaakt en heb gewerkt met node en react</p>
+        <img src="../img/fullstack.png">
+    </section>
+
+    <section class="machinelearning">
+        <h2>Machine learning</h2>
+        <p>Ik heb een ai gemaakt dat advies geeft over voetbal</p>
+        <img src="../img/machinelearning.jpg">
+
+    </section>
+    <section class="quality education">
+        <h2>quality education</h2>
+        <p>Leerlingen hebben moeite met vragen stellen dus hebben we een ai gemaakt die hun helpt met het herfomuleren van vragen stell</p>
+      
+        <img src="../img/quality education.jpg">
     </section>
 
 

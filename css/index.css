@@ -3,6 +3,8 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+   padding:0px;
+  margin: 0px;
 }
 
 header {
@@ -33,51 +35,47 @@ nav a:hover {
   border-radius: 5px;
 }
 
+.dropbtn {
+  background-color: #1c345a;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #1c345a;
+}
+
+
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropbtn {
-  background-color: #1c345a;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-}
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: #333;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #102a43;
-}
+.dropdown-content a:hover {background-color: #ddd;}
 
 
-
-
+.show {display:block;}
 
 #introduction1 {
   background-color: #fff;
@@ -137,17 +135,6 @@ footer {
   padding: 10px;
   text-align: center;
 }
-
-#naruto {
-  width: 300px;
-  height: auto;
-}
-
-#aizen {
-  width: 200px;
-  height: auto;
-}
-
 
 @media (max-width: 768px) {
   #naruto img {
