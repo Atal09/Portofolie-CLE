@@ -34,31 +34,32 @@ nav a:hover {
   color: #1c345a;
   border-radius: 5px;
 }
+
 .dropbtn {
   background-color: #1c345a;
   color: white;
-  padding: 16px;
+  padding: 10px;
   font-size: 16px;
   border: none;
   cursor: pointer;
 }
 
+
 .dropbtn:hover, .dropbtn:focus {
   background-color: #1c345a;
 }
-
 
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
+  margin-top: 10px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -70,13 +71,10 @@ nav a:hover {
   display: block;
 }
 
-
 .dropdown-content a:hover {background-color: #ddd;}
 
 
 .show {display:block;}
-
-
 
 #schildpad {
   background-color: #fff;
@@ -93,6 +91,7 @@ nav a:hover {
   border-radius: 5px;
   box-shadow: 0px 0px 5px #888;
 }
+
 .webservice{
     background-color: #fff;
     padding: 20px;
@@ -100,6 +99,7 @@ nav a:hover {
     border-radius: 5px;
     box-shadow: 0px 0px 5px #888;
 }
+
 .game{
   background-color: #fff;
   padding: 20px;
@@ -108,6 +108,7 @@ nav a:hover {
   box-shadow: 0px 0px 5px #888;
   
 }
+
 .laravel{
   background-color: #fff;
   padding: 20px;
@@ -115,12 +116,24 @@ nav a:hover {
   border-radius: 5px;
   box-shadow: 0px 0px 5px #888;
 }
+.laravel img{
+  width: 50%;
+  height: auto;
+
+
+}
+
 .labelvision{
   background-color: #fff;
   padding: 20px;
   margin: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 5px #888;
+}
+
+.labelvision img{
+  width: 50%;
+  height: auto;
 }
 
 .fullstack{
@@ -130,10 +143,34 @@ nav a:hover {
   border-radius: 5px;
   box-shadow: 0px 0px 5px #888;
 }
+
 .fullstack img {
   width: 50%;
   height: auto; 
 }
+
+.machinelearning{
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #888;
+}
+
+.machinelearning img{
+  width: 50%;
+  height: auto;
+
+}
+
+.qualityeducation{
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #888;
+}
+
 .Excel{
   background-color: #fff;
   padding: 20px;
@@ -157,8 +194,6 @@ footer {
   padding: 10px;
   text-align: center;
 }
-
-
 
 @media (max-width: 768px) {
  

@@ -34,15 +34,15 @@ nav a:hover {
   color: #1c345a;
   border-radius: 5px;
 }
+
 .dropbtn:hover, .dropbtn:focus {
   background-color: #1c345a;
 }
 
-
 .dropbtn {
   background-color: #1c345a;
   color: white;
-  padding: 16px;
+  padding: 10px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -52,18 +52,17 @@ nav a:hover {
   background-color: #1c345a;
 }
 
-
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
+  margin-top: 10px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -75,13 +74,9 @@ nav a:hover {
   display: block;
 }
 
-
 .dropdown-content a:hover {background-color: #ddd;}
 
-
 .show {display:block;}
-
-
 
 form {
   background-color: #fff;
