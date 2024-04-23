@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-function myFunction() {
+function dropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
@@ -52,3 +52,5 @@ window.onclick = function(event) {
     }
   }
 }
+
+
